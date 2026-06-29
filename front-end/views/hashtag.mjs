@@ -35,8 +35,8 @@ function hashtagView(hashtag) {
     createLogin
   );
   document
-    .querySelector("[data-form='login']")
-    ?.addEventListener("submit", handleLogin);
+    .querySelector("[data-action='login']")
+    ?.addEventListener("click", handleLogin);
 
   renderOne(
     state.currentHashtag,
